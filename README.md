@@ -68,3 +68,4 @@ Qwen/Qwen3-235B-A22B-Instruct-2507
 ### Amir_Dig AI
 
 **A Persian-focused Desktop AI Experience**
+لطفا در صورت داشتن مشکل اطلاع دهید.
