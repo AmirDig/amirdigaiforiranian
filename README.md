@@ -1,10 +1,3 @@
-# 📄 README.md — مخصوص وقتی فقط فایل Setup رو می‌ذاری
-
-این نسخه رو کپی کن و بذار توی `README.md`:
-
----
-
-```markdown
 <div align="center">
 
 <img src="./public/avatar.jpg" alt="Amir_Dig" width="140" height="140" />
@@ -46,39 +39,19 @@
 
 ## ✨ ویژگی‌ها
 
-<table>
-<tr>
-<td width="50%" valign="top">
+| 💬 چت هوشمند | 🔐 امنیت |
+|---|---|
+| ✅ پاسخ‌های فارسی روان | ✅ رمزنگاری توکن با Windows |
+| ✅ لحن رفیقانه و صمیمی | ✅ بدون ارسال داده به سرور اضافه |
+| ✅ پشتیبانی از Markdown و کد | ✅ Rate Limiting روی درخواست‌ها |
+| ✅ تغییر مدل به دلخواه | ✅ Content Security Policy |
 
-### 💬 چت هوشمند
-- ✅ پاسخ‌های فارسی روان
-- ✅ لحن رفیقانه و صمیمی
-- ✅ پشتیبانی از Markdown و کد
-- ✅ تغییر مدل به دلخواه
-
-### 🔐 امنیت
-- ✅ رمزنگاری توکن با Windows
-- ✅ بدون ارسال داده به سرور اضافه
-- ✅ Rate Limiting روی درخواست‌ها
-
-</td>
-<td width="50%" valign="top">
-
-### 💾 حافظه
-- ✅ ذخیره‌ی خودکار چت‌ها
-- ✅ جستجو توی تاریخچه
-- ✅ Pin و Rename گفتگوها
-- ✅ Export/Import به JSON
-
-### 🎨 رابط کاربری
-- ✅ تم تاریک و روشن
-- ✅ فونت فارسی Sahel
-- ✅ کاملاً RTL
-- ✅ ریسپانسیو
-
-</td>
-</tr>
-</table>
+| 💾 حافظه | 🎨 رابط کاربری |
+|---|---|
+| ✅ ذخیره‌ی خودکار چت‌ها | ✅ تم تاریک و روشن |
+| ✅ جستجو توی تاریخچه | ✅ فونت فارسی Sahel |
+| ✅ Pin و Rename گفتگوها | ✅ کاملاً RTL |
+| ✅ Export/Import به JSON | ✅ ریسپانسیو |
 
 ---
 
@@ -86,16 +59,13 @@
 
 <div align="center">
 
-<table>
-<tr>
-<td><img src="./docs/screenshots/main.png" alt="Main" width="100%" /></td>
-<td><img src="./docs/screenshots/settings.png" alt="Settings" width="100%" /></td>
-</tr>
-<tr>
-<td align="center"><b>رابط اصلی چت</b></td>
-<td align="center"><b>تنظیمات</b></td>
-</tr>
-</table>
+| رابط اصلی چت | تنظیمات |
+|:---:|:---:|
+| ![Main](./docs/screenshots/main.png) | ![Settings](./docs/screenshots/settings.png) |
+
+| تم روشن | صفحه‌ی ورود توکن |
+|:---:|:---:|
+| ![Light](./docs/screenshots/light.png) | ![Token](./docs/screenshots/token.png) |
 
 </div>
 
@@ -132,7 +102,7 @@
 1. اگه حساب نداری، برو به [huggingface.co/join](https://huggingface.co/join) و ثبت‌نام کن (رایگانه)
 
 2. برو به این لینک:
-   
+
    👉 [**huggingface.co/settings/tokens/new**](https://huggingface.co/settings/tokens/new?ownUserPermissions=inference.serverless.write&tokenType=fineGrained)
 
 3. تنظیمات توکن:
@@ -304,6 +274,7 @@ Amir_Dig از این مدل‌ها پشتیبانی می‌کنه (توی تنظ
 ## 📋 تغییرات نسخه‌ها
 
 ### 🆕 v1.0.0 — اولین انتشار
+
 - ✅ چت با مدل‌های فارسی Hugging Face
 - ✅ رابط کاربری زیبا با تم تاریک/روشن
 - ✅ ذخیره‌ی رمزنگاری‌شده‌ی توکن
@@ -348,6 +319,3 @@ MIT License · Copyright (c) 2026 Amir_Dig
 <br>
 
 </div>
-```
-
----
