@@ -1,26 +1,8 @@
-<div align="center">
-
-<img src="./public/avatar.jpg" alt="Amir_Dig" width="140" height="140" />
-
 # 🤖 Amir_Dig
 
 ### دستیار هوش مصنوعی فارسی‌زبان — رفیق، رک، دقیق
 
 یه برنامه‌ی چت دسکتاپ که فقط و فقط فارسی حرف می‌زنه، خودمونی جواب می‌ده و با امنیت کامل روی ویندوز اجرا می‌شه.
-
-<br>
-
-[![Download](https://img.shields.io/badge/📥_دانلود-آخرین_نسخه-00e599?style=for-the-badge)](https://github.com/amirdig/amir-dig/releases/latest)
-[![Version](https://img.shields.io/badge/version-1.0.0-00b8ff?style=for-the-badge)](https://github.com/amirdig/amir-dig/releases)
-[![Platform](https://img.shields.io/badge/Windows-10%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/amirdig/amir-dig/releases)
-
-<br>
-
-![Persian](https://img.shields.io/badge/زبان-فارسی_روان-00e599?style=flat-square)
-![AI](https://img.shields.io/badge/هوش_مصنوعی-Hugging_Face-FFD21E?style=flat-square)
-![Secure](https://img.shields.io/badge/امنیت-رمزنگاری_توکن-2dd4a7?style=flat-square)
-
-</div>
 
 ---
 
@@ -55,33 +37,17 @@
 
 ---
 
-## 📸 تصاویر
-
-<div align="center">
-
-| رابط اصلی چت | تنظیمات |
-|:---:|:---:|
-| ![Main](./docs/screenshots/main.png) | ![Settings](./docs/screenshots/settings.png) |
-
-| تم روشن | صفحه‌ی ورود توکن |
-|:---:|:---:|
-| ![Light](./docs/screenshots/light.png) | ![Token](./docs/screenshots/token.png) |
-
-</div>
-
----
-
 ## 📥 دانلود و نصب
 
 ### مرحله ۱: دانلود
 
-برو به صفحه‌ی [**Releases**](https://github.com/amirdig/amir-dig/releases/latest) و فایل `Amir_Dig Setup 1.0.0.exe` رو دانلود کن.
+برو به صفحه‌ی [**Releases**](https://github.com/AmirDig/amirdigaiforiranian/releases/tag/ai) و فایل Setup رو دانلود کن.
 
 > 💾 **حجم:** حدود ۹۰ مگابایت
 
 ### مرحله ۲: نصب
 
-1. روی فایل `Amir_Dig Setup 1.0.0.exe` دابل‌کلیک کن
+1. روی فایل Setup دابل‌کلیک کن
 2. اگه ویندوز هشدار داد، روی **More info → Run anyway** بزن
 3. مسیر نصب رو انتخاب کن (یا پیش‌فرض بذار)
 4. **Install** رو بزن
@@ -175,8 +141,6 @@ Amir_Dig **خودکار** پروکسی رو تشخیص می‌ده. فقط کا�
 <details>
 <summary><b>🔴 برنامه باز نمی‌شه</b></summary>
 
-<br>
-
 **راه‌حل:**
 1. ویندوزت باید ۱۰ یا ۱۱ (۶۴ بیت) باشه
 2. اگه آنتی‌ویروس بلاکش کرده، بهش اجازه بده
@@ -186,8 +150,6 @@ Amir_Dig **خودکار** پروکسی رو تشخیص می‌ده. فقط کا�
 
 <details>
 <summary><b>🔴 خطای «توکن نامعتبر»</b></summary>
-
-<br>
 
 **راه‌حل:**
 1. مطمئن شو توکن رو کامل کپی کردی (شروع می‌شه با `hf_`)
@@ -199,8 +161,6 @@ Amir_Dig **خودکار** پروکسی رو تشخیص می‌ده. فقط کا�
 <details>
 <summary><b>🔴 خطای «شبکه برقرار نشد»</b></summary>
 
-<br>
-
 **راه‌حل:**
 1. VPN / پروکسی رو روشن کن
 2. Amir_Dig رو ببند و دوباره باز کن
@@ -210,8 +170,6 @@ Amir_Dig **خودکار** پروکسی رو تشخیص می‌ده. فقط کا�
 
 <details>
 <summary><b>🔴 برنامه انگلیسی یا چینی جواب می‌ده</b></summary>
-
-<br>
 
 **راه‌حل:**
 1. تنظیمات → AI / Model → مدل رو عوض کن به **Llama 3.3 70B**
@@ -223,8 +181,6 @@ Amir_Dig **خودکار** پروکسی رو تشخیص می‌ده. فقط کا�
 <details>
 <summary><b>🔴 چطور توکنم رو پاک کنم؟</b></summary>
 
-<br>
-
 **راه‌حل:**
 1. تنظیمات → Token / Account
 2. دکمه‌ی **حذف توکن** رو بزن
@@ -235,9 +191,17 @@ Amir_Dig **خودکار** پروکسی رو تشخیص می‌ده. فقط کا�
 <details>
 <summary><b>🔴 می‌تونم ازش توی موبایل استفاده کنم؟</b></summary>
 
-<br>
-
 فعلاً نه. Amir_Dig فقط برای **ویندوز** ساخته شده. نسخه‌ی موبایل توی برنامه‌های آینده هست.
+
+</details>
+
+<details>
+<summary><b>🔴 چت جدید باز کردم ولی جواب نمی‌ده</b></summary>
+
+**راه‌حل:**
+1. مطمئن شو VPN روشنه
+2. توکن رو چک کن (تنظیمات → Token)
+3. برنامه رو ببند و دوباره باز کن
 
 </details>
 
@@ -263,7 +227,7 @@ Amir_Dig از این مدل‌ها پشتیبانی می‌کنه (توی تنظ
 اگه مشکلی داشتی:
 
 1. اول [سوالات متداول](#-سوالات-متداول) رو ببین
-2. اگه جوابت نبود، [**یه Issue باز کن**](https://github.com/amirdig/amir-dig/issues/new)
+2. اگه جوابت نبود، [**یه Issue باز کن**](https://github.com/AmirDig/amirdigaiforiranian/issues/new)
 3. توی Issue اینا رو بنویس:
    - مشکل چیه
    - دقیقاً چه کاری کردی
@@ -304,18 +268,8 @@ MIT License · Copyright (c) 2026 Amir_Dig
 
 ---
 
-<div align="center">
-
-<br>
-
 ### ⭐ اگه از Amir_Dig راضی بودی، یه ستاره بده! ⭐
 
 ساخته شده با ❤️ برای مردم فارسی‌زبان
 
-<br>
-
-[📥 دانلود آخرین نسخه](https://github.com/amirdig/amir-dig/releases/latest) · [🐛 گزارش باگ](https://github.com/amirdig/amir-dig/issues/new)
-
-<br>
-
-</div>
+[📥 دانلود آخرین نسخه](https://github.com/AmirDig/amirdigaiforiranian/releases/tag/ai) · [🐛 گزارش باگ](https://github.com/AmirDig/amirdigaiforiranian/issues/new)
